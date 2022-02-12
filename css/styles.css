@@ -270,6 +270,11 @@ header {
 .footer-logo {
   color: var(--primary-page-color);
 }
+.logo-geometric {
+  padding-top: 60px;
+  margin-bottom: 20px;
+  background-color: tomato;
+}
 
 /*==============PORTFOLIO CSS==============*/
 .portfolio-button {
