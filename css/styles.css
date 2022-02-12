@@ -92,9 +92,12 @@ header {
   color: var(--accent-page-color);
 }
 .list-contacts {
+  list-style-type: none;
   display: flex;
   align-items: center;
-  margin-left: auto;
+  margin-left: 331px;
+}
+.mail-margin {
   margin-right: 50px;
 }
 .nav-list {
@@ -102,7 +105,7 @@ header {
   align-items: center;
 }
 .nav-list-item:not(:last-child) {
-  margin: 40px;
+  margin-right: 50px;
 }
 .text-contacts {
   font-family: inherit;
