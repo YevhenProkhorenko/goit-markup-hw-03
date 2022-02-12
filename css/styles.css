@@ -9,49 +9,6 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 /*==============STUDIO PAGE==============*/
-/*==============BODY CSS==============*/
-.page {
-  color: var(--primary-text-color);
-  font-family: "Roboto", sans-serif;
-  background: var(--primary-page-color);
-}
-/*==============HEADER CSS==============*/
-.logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-}
-.navigation {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-  text-decoration: none;
-}
-.navigation:hover,
-.navigation:focus {
-  color: var(--accent-page-color);
-}
-.navigation.current {
-  color: var(--accent-page-color);
-}
-
-.contacts {
-  font-family: inherit;
-  color: var(--primary-text-color);
-  text-decoration: none;
-}
-.contacts:focus,
-.contacts:hover {
-  color: var(--accent-page-color);
-}
-
-/*==============MAIN CSS==============*/
-
 /* text and list properties */
 
 .list {
@@ -84,6 +41,81 @@ ol {
 img {
   display: block;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: tomato;
+}
+/*==============BODY CSS==============*/
+.page {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  background: var(--primary-page-color);
+}
+/*==============HEADER CSS==============*/
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-right: 92px;
+  color: var(--secondary-text-color);
+}
+.text-navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.text-navigation:hover,
+.text-navigation:focus {
+  color: var(--accent-page-color);
+}
+.text-navigation.current {
+  color: var(--accent-page-color);
+}
+.list-contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-list-item:not(:last-child) {
+  margin: 40px;
+}
+.text-contacts {
+  font-family: inherit;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.text-contacts:focus,
+.text-contacts:hover {
+  color: var(--accent-page-color);
+}
+
+/*==============MAIN CSS==============*/
+
 /*==============HERO SECTION==============*/
 
 .main-tittle {
