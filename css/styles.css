@@ -51,6 +51,8 @@ img {
 
 header {
   background-color: tomato;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /*==============BODY CSS==============*/
 .page {
@@ -122,6 +124,7 @@ header {
 /*==============HERO SECTION==============*/
 
 .main-tittle {
+  min-width: 696;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -129,25 +132,33 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-page-color);
+  margin-bottom: 30px;
 }
 .button {
+  min-width: 200px;
+  padding: 10px 22px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-page-color);
   background: var(--accent-page-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button:hover {
   color: var(--primary-page-color);
   background: var(--background-button-color);
 }
+/* .button-position {
+  margin-left: auto;
+  margin-right: auto;
+} */
 
 /*==============WORK EXAMPLES SECTION==============*/
 
