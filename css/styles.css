@@ -264,7 +264,7 @@ header {
 .footer-text:focus {
   color: var(--accent-page-color);
 }
-.footer-color {
+.hero-footer-color {
   background: var(--footer-color);
 }
 .footer-logo {
