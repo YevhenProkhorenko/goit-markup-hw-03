@@ -273,7 +273,12 @@ header {
 .logo-geometric {
   padding-top: 60px;
   margin-bottom: 20px;
-  background-color: tomato;
+}
+.footer-text-geometric:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer-text-geometric:last-child {
+  padding-bottom: 60px;
 }
 
 /*==============PORTFOLIO CSS==============*/
