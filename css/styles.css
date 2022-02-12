@@ -68,7 +68,22 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 /*==============HERO SECTION==============*/
 
 .main-tittle {
