@@ -17,33 +17,43 @@
 
   <body class="page">
     <header>
-      <nav>
-        <a class="logo link" href="./index.html" lang="en"
-          ><span class="accent">Web</span>Studio</a
-        >
-        <ul class="list">
-          <li><a class="navigation" href="./index.html">Студия</a></li>
-          <li>
-            <a class="navigation current" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li><a class="navigation" href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul class="list navigation">
-        <li>
-          <a class="contacts" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+      <div class="container header-container text-navigation">
+        <nav class="navigation">
+          <a class="logo link" href="./index.html" lang="en"
+            ><span class="accent">Web</span>Studio</a
           >
-        </li>
-        <li>
-          <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+          <ul class="list nav-list">
+            <li class="nav-list-item">
+              <a class="text-navigation current" href="./index.html">Студия</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="text-navigation" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="text-navigation" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list-contacts">
+          <li>
+            <a
+              class="text-contacts mail-margin"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="text-contacts" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
       <section>
-        <h1 class="primary-tittle">Примеры работ</h1>
+        <h1 class="primary-tittle visually-hidden">Примеры работ</h1>
         <ul class="list">
           <li><button class="portfolio-button" type="button">Все</button></li>
           <li>
@@ -179,36 +189,42 @@
         </ul>
       </section>
     </main>
-    <footer class="footer-color">
-      <a class="logo link" href="./index.html" lang="en"
-        ><span class="accent">Web</span
-        ><span class="footer-logo">Studio</span></a
-      >
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a
-              class="footer-text"
-              href="https://goo.gl/maps/CnC2TCS1E6ZWtg9c6"
-              target="_blank"
-              rel="noreferrer noopener"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer-text footer-contacts"
-              href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="footer-text footer-contacts" href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <footer>
+      <div class="hero-footer-color container">
+        <div class="logo-geometric">
+          <a class="logo link" href="./index.html" lang="en"
+            ><span class="accent">Web</span
+            ><span class="footer-logo">Studio</span></a
+          >
+        </div>
+        <div>
+          <address class="address">
+            <ul class="list footer-text-geometric">
+              <li>
+                <a
+                  class="footer-text"
+                  href="https://goo.gl/maps/CnC2TCS1E6ZWtg9c6"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-text footer-contacts"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="footer-text footer-contacts" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
