@@ -167,7 +167,7 @@ header {
   overflow: hidden;
 }
 .primary-tittle {
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -179,7 +179,7 @@ header {
 
 .secondary-tittle {
   min-width: 270px;
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
