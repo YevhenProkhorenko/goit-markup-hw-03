@@ -176,8 +176,11 @@ header {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.primary-tittle {
+.section {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+.primary-tittle {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -189,7 +192,6 @@ header {
 
 .secondary-tittle {
   min-width: 270px;
-  padding-top: 94px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -225,7 +227,6 @@ header {
 
 .section-team {
   background-color: var(--team-section-color);
-  padding-bottom: 94px;
 }
 
 .team-initials {
@@ -240,7 +241,6 @@ header {
 }
 .team-border {
   border: 1px solid var(--primary-page-color);
-  border-top: none;
   background: var(--primary-page-color);
   border-radius: 0px 0px 4px 4px;
 }
