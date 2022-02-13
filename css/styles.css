@@ -5,6 +5,7 @@
   --accent-page-color: #2196f3;
   --team-section-color: #f5f4fa;
   --background-button-color: #188ce8;
+  --portfolio-border-color: #eeeeee;
   --footer-color: #2f303a;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
@@ -293,7 +294,9 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  background-color: var(--team-section-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 .portfolio-button-item :not(:last-child) {
   margin-right: 9px;
@@ -319,10 +322,9 @@ header {
   margin-top: 30px;
 }
 .portfolio-image-border {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--portfolio-border-color);
   border-top: none;
   background: var(--primary-page-color);
-
   box-sizing: border-box;
 }
 
