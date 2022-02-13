@@ -228,9 +228,10 @@ header {
   color: var(--secondary-text-color);
 }
 .team-border {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--primary-page-color);
   border-top: none;
-  background: #ffffff;
+  background: var(--primary-page-color);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-image {
   flex-basis: calc((100%-4 * 30) / 4);
@@ -283,6 +284,8 @@ header {
 
 /*==============PORTFOLIO CSS==============*/
 .portfolio-button {
+  padding: 6px 22px;
+  margin-bottom: 56px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -292,11 +295,37 @@ header {
   color: var(--secondary-text-color);
   cursor: pointer;
 }
+.portfolio-button-item :not(:last-child) {
+  margin-right: 9px;
+}
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--primary-page-color);
   background: var(--accent-page-color);
 }
+.portfolio-button-list {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-image {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.portfolio-image-list {
+  flex-basis: calc((100%-90px) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.portfolio-image-border {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  background: var(--primary-page-color);
+
+  box-sizing: border-box;
+}
+
 .portfolio-tittle {
   font-weight: 700;
   font-size: 18px;
