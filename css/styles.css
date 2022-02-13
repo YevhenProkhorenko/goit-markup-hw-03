@@ -329,6 +329,7 @@ header {
 }
 
 .portfolio-tittle {
+  padding: 20px 24px 4px 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -336,6 +337,7 @@ header {
   color: var(--secondary-text-color);
 }
 .portfolio-paragraph {
+  padding: 0px 24px 20px 24px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
