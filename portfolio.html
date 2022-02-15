@@ -11,36 +11,41 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="shortcut icon" href="#" />
   </head>
 
   <body class="page">
-    <header>
-      <div class="container header-container text-navigation header-border">
+    <header class="header">
+      <div class="container header-container">
         <nav class="navigation">
           <a class="logo link" href="./index.html" lang="en"
             ><span class="accent">Web</span>Studio</a
           >
           <ul class="list nav-list">
             <li class="nav-list-item">
-              <a class="text-navigation" href="./index.html">Студия</a>
+              <a class="link text-navigation" href="./index.html">Студия</a>
             </li>
             <li class="nav-list-item">
-              <a class="text-navigation current" href="./portfolio.html"
+              <a class="link text-navigation current" href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
             <li class="nav-list-item">
-              <a class="text-navigation" href="">Контакты</a>
+              <a class="link text-navigation" href="">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="list-contacts">
-          <li>
-            <a
-              class="text-contacts mail-margin"
-              href="mailto:info@devstudio.com"
+          <li class="mail-margin">
+            <a class="text-contacts" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
@@ -213,41 +218,37 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="hero-footer-color container">
-        <div class="logo-geometric">
-          <a class="logo link" href="./index.html" lang="en"
-            ><span class="accent">Web</span
-            ><span class="footer-logo">Studio</span></a
-          >
-        </div>
-        <div>
-          <address class="address">
-            <ul class="list footer-text-geometric">
-              <li>
-                <a
-                  class="footer-text"
-                  href="https://goo.gl/maps/CnC2TCS1E6ZWtg9c6"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
-              </li>
-              <li>
-                <a
-                  class="footer-text footer-contacts"
-                  href="mailto:info@example.com"
-                  >info@example.com</a
-                >
-              </li>
-              <li>
-                <a class="footer-text footer-contacts" href="tel:+380991111111"
-                  >+38 099 111 11 11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
+    <footer class="footer">
+      <div class="container">
+        <a class="footer-logo link" href="./index.html" lang="en"
+          ><span class="accent">Web</span
+          ><span class="logo-accent">Studio</span></a
+        >
+        <address class="address">
+          <ul class="list">
+            <li class="footer-text-margin">
+              <a
+                class="footer-text"
+                href="https://goo.gl/maps/CnC2TCS1E6ZWtg9c6"
+                target="_blank"
+                rel="noreferrer noopener"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-text-margin">
+              <a
+                class="footer-text footer-contacts"
+                href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer-text-margin">
+              <a class="footer-text footer-contacts" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
