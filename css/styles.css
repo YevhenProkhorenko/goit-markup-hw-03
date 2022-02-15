@@ -35,6 +35,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none;
 }
 img {
   display: block;
@@ -49,10 +50,6 @@ img {
   margin-right: auto;
 }
 
-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 /*==============BODY CSS==============*/
 .page {
   color: var(--primary-text-color);
@@ -60,16 +57,20 @@ header {
   background: var(--primary-page-color);
 }
 /*==============HEADER CSS==============*/
+.header {
+  border-bottom: 1px solid var(--header-border-color);
+}
 .header-container {
   display: flex;
   align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
 }
-.header-border {
-  border: 1px solid var(--header-border-color);
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -85,16 +86,7 @@ header {
   margin-right: 92px;
   color: var(--secondary-text-color);
 }
-.text-navigation {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-  text-decoration: none;
-}
+
 .text-navigation:hover,
 .text-navigation:focus {
   color: var(--accent-page-color);
@@ -103,12 +95,11 @@ header {
   color: var(--accent-page-color);
 }
 .list-contacts {
-  list-style-type: none;
   display: flex;
+  margin-left: auto;
 }
 .mail-margin {
   margin-right: 50px;
-  margin-left: 331px;
 }
 .nav-list {
   display: flex;
@@ -245,8 +236,7 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 .team-image {
-  flex-basis: calc((100%-4 * 30) / 4);
-  /* ВАЛИДАТОР ВЫДАЕТ ОШИБКУ. НЕ МОГУ ПОНЯТЬ ПОЧЕМУ  */
+  flex-basis: calc((100% - 4 * 30) / 4);
 }
 
 .team-position {
@@ -328,7 +318,7 @@ header {
   margin-top: -30px;
 }
 .portfolio-image-list {
-  /* flex-basis: calc((100%-90px) / 3); */
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
