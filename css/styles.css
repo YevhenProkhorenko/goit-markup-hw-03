@@ -251,9 +251,6 @@ img {
     0px 1px 1px var(--second-card-shadow), 0px 2px 1px var(--third-card-shadow);
   border-radius: 0px 0px 4px 4px;
 }
-.team-image {
-  flex-basis: calc((100% - 4 * 30) / 4);
-}
 
 .team-position {
   margin-top: 10px;
