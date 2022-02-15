@@ -122,8 +122,16 @@ img {
 
 /*==============HERO SECTION==============*/
 
+.hero {
+  background-color: var(--footer-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
 .main-tittle {
-  min-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
