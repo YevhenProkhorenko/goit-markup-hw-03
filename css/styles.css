@@ -306,7 +306,6 @@ img {
 /*==============PORTFOLIO CSS==============*/
 .portfolio-button {
   padding: 6px 22px;
-  margin-bottom: 56px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -318,7 +317,7 @@ img {
   cursor: pointer;
   border-radius: 4px;
 }
-.portfolio-button-item :not(:last-child) {
+.portfolio-button-item:not(:last-child) {
   margin-right: 9px;
 }
 .portfolio-button:hover,
@@ -329,6 +328,7 @@ img {
 .portfolio-button-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 56px;
 }
 .portfolio-image {
   display: flex;
