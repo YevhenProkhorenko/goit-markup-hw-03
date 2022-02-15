@@ -70,7 +70,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
   text-decoration: none;
 }
 
@@ -87,6 +86,9 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 92px;
+  color: var(--secondary-text-color);
+}
+.text-navigation {
   color: var(--secondary-text-color);
 }
 
@@ -264,6 +266,11 @@ img {
 .address {
   font-style: normal;
 }
+.footer {
+  background-color: var(--hero-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer-text {
   font-family: inherit;
   font-size: 14px;
@@ -279,21 +286,21 @@ img {
 .footer-text:focus {
   color: var(--accent-page-color);
 }
-.footer-color {
-  background: var(--hero-footer-color);
-}
 .footer-logo {
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  display: block;
+}
+.logo-accent {
   color: var(--primary-page-color);
 }
-.logo-geometric {
-  padding-top: 60px;
-  margin-bottom: 20px;
-}
-.footer-text-geometric:not(:last-child) {
+
+.footer-text-margin:not(:last-child) {
   margin-bottom: 9px;
-}
-.footer-text-geometric:last-child {
-  padding-bottom: 60px;
 }
 
 /*==============PORTFOLIO CSS==============*/
