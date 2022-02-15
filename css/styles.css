@@ -232,14 +232,16 @@ img {
 }
 
 .team-initials {
-  padding-top: 30px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+.team-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .сard-background {
   background: var(--primary-page-color);
@@ -252,9 +254,7 @@ img {
 }
 
 .team-position {
-  padding-top: 10px;
-  padding-bottom: 30px;
-
+  margin-top: 10px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
