@@ -340,16 +340,17 @@ img {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
-}
-.portfolio-image-border {
   border: 1px solid var(--portfolio-border-color);
   border-top: none;
   background: var(--primary-page-color);
   box-sizing: border-box;
 }
+.portfolio-image-background {
+  margin: 20px 24px;
+}
 
 .portfolio-tittle {
-  padding: 20px 24px 4px 24px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -357,7 +358,6 @@ img {
   color: var(--secondary-text-color);
 }
 .portfolio-paragraph {
-  padding: 0px 24px 20px 24px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
