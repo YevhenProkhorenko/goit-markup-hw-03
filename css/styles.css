@@ -7,7 +7,7 @@
   --background-button-color: #188ce8;
   --portfolio-border-color: #eeeeee;
   --header-border-color: #ececec;
-  --footer-color: #2f303a;
+  --hero-footer-color: #2f303a;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 /*==============STUDIO PAGE==============*/
@@ -123,7 +123,7 @@ img {
 /*==============HERO SECTION==============*/
 
 .hero {
-  background-color: var(--footer-color);
+  background-color: var(--hero-footer-color);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -213,7 +213,9 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
+.section-doings {
+  padding-top: 0px;
+}
 .image-company {
   display: flex;
 }
@@ -273,8 +275,8 @@ img {
 .footer-text:focus {
   color: var(--accent-page-color);
 }
-.hero-footer-color {
-  background: var(--footer-color);
+.footer-color {
+  background: var(--hero-footer-color);
 }
 .footer-logo {
   color: var(--primary-page-color);
