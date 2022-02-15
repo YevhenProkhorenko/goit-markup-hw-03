@@ -203,19 +203,17 @@ img {
 .company-advantages {
   display: flex;
   align-items: center;
+  padding-left: auto;
+  padding-right: auto;
 }
-.company-list-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .text {
-  min-width: 270px;
+  width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.text-position {
-  margin-right: 30px;
-}
+
 .image-company {
   display: flex;
 }
