@@ -211,7 +211,9 @@ img {
   padding-left: auto;
   padding-right: auto;
 }
-
+.advantages:not(:last-child) {
+  margin-right: 30px;
+}
 .text {
   width: 270px;
   font-size: 14px;
