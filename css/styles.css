@@ -317,7 +317,7 @@ img {
   border-radius: 4px;
 }
 .portfolio-button-item:not(:last-child) {
-  margin-right: 9px;
+  margin-right: 8px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -327,7 +327,7 @@ img {
 .portfolio-button-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 56px;
+  margin-bottom: 50px;
 }
 .portfolio-image {
   display: flex;
@@ -345,7 +345,7 @@ img {
   box-sizing: border-box;
 }
 .portfolio-image-background {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 
 .portfolio-tittle {
